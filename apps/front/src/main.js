@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'es6-promise/auto'
+import Vuex from 'vuex'
+import './assets/sass/app.scss'
+Vue.use(Vuex)
 
 Vue.config.productionTip = false
 
