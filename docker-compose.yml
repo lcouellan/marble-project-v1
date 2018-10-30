@@ -18,7 +18,7 @@ services:
     image: nginx:1.15.3-alpine
     restart: on-failure
     depends_on:
-    - php
+      - php
 
   adminer:
     image: adminer
