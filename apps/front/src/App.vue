@@ -1,8 +1,7 @@
 <template>
-  <div id="app">
-    aze
+  <main id="app">
     <router-view/>
-  </div>
+  </main>
 </template>
 
 <script>
